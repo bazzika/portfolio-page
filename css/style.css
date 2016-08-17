@@ -5,8 +5,8 @@ html,body,h1,h2,h3,h4,p,div,ul,ol,li,legend {
 body {
     position: relative;
     background-color: #708090;
-    padding-top: 70px;
-    padding-bottom: 0px;
+    /*padding-top: 70px;*/
+    /*padding-bottom: 0px;*/
     transition:  all .3s linear;
 }
 h1{
@@ -37,10 +37,10 @@ h3{
     color: gray;
     width: 100%;
 }
-.projects ul{
+.container-fluid ul{
     list-style-type:none;
 }
-.projects li, .badges li, .articles li,.skills li{
+.container-fluid li, .badges li, .articles li,.skills li{
     margin-bottom:20px;
     margin-top: 20px;
 }
@@ -52,7 +52,7 @@ p {
     font-family: "Helvetica Neue",Helvetica,sans-serif;
     font-size: 18px;
 }
-.projects a{
+.container-fluid a{
     font-family: "Helvetica Neue",Helvetica,sans-serif;
     font-size: 16px;
     font-weight:bold;
@@ -185,9 +185,13 @@ form button{
     width: 100%;
 }
 #about{
+    /*margin-top: 50px;*/
     padding: 0 0 0 0;
     width: 100%;
 }
-a:hover,a:focus{
+a:hover,a:focus{ema
     text-decoration: none;
+}
+#projects{
+    padding-top: 100px;
 }
