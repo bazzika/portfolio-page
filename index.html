@@ -9,8 +9,8 @@
     <title>Personal page</title>
 </head>
 <body class="page" data-spy="scroll" data-target=".navbar" data-offset="20">
-<nav class="navbar navbar-default navbar-fixed-top" id='navigation' role="navigation">
-    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top navbar--primary" id='navigation' role="navigation">
+    <div class="container container--menu">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -20,7 +20,7 @@
             </button>
             <a class="navbar-brand" href="#">Portfolio page</a>
         </div>
-      <div id="navbar" class="navbar-collapse collapse">
+      <div id="navbar" class="navbar-collapse collapse navbar-collapse--right">
           <ul class="nav navbar-nav navbar-right" role="tablist">
               <li class="active">
                   <a href="#about">About</a>
@@ -42,15 +42,15 @@
 </nav>
 
 
-<div class="container">
-    <div class="container theme-showcase" role="main" id="about">
-            <div class="jumbotron">
+<div class="container container--main">
+    <div class="row"  id="about">
+            <div class="jumbotron intro"  >
                 <div class="row">
                     <div class="col-md-4 col-md-offset-0">
-                        <img src="images/girl.png" alt="my logo" class="img-rounded">
+                        <img src="images/girl.png" alt="my logo" class="img-rounded intro__media">
                     </div>
                     <div class="col-md-8 col-md-offset-0">
-                        <p>
+                        <p class="intro__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id orci eget nulla laoreet tempor.
                 Quisque sit amet ipsum dignissim elit egestas volutpat et in ante. Aenean vitae ligula viverra,
                 euismod nibh id, laoreet ipsum. Nam aliquam, urna eget pharetra consectetur, purus est pellentesque
@@ -61,35 +61,66 @@
                  </div>
         </div>
    </div>
-
-    <div class="container-fluid" id="projects" data-offset-top="50">
+    <div class="row projects" id="projects">
         <h3 class="title">Projects</h3>
-            <ul>
+            <!--<ul>-->
                 <div class="row">
                     <div class="col-md-4 col-md-offset-1">
-                        <li><img src="images/study-3.jpg" alt="study" class="img-rounded"></li>
-                            <p><small><strong>2002-2008</strong></small></p>
-                            <p><strong><a href="http://www.khai.edu">Kharkov Nation Space University</a></strong></p>
-                            <p><small>Master's Degree in Business Economics</small></p>
-                        <li><img src="images/Business-Plan-Basics-1.png" alt="bussiness-plan" class="img-rounded"></li>
-                            <p><small><strong>2008-2010</strong></small></p>
-                            <p><strong><a href="http://kharkivglobal.com/ru">Regional Business Assistance Centre</a></strong></p>
-                            <p><small>lead economist</small></p>
+                        <div class="card">
+                            <img src="images/study-3.jpg" alt="study" class="img-rounded">
+                            <div class="card__period">
+                                2002-2008
+                            </div>
+                            <div class="card__name">
+                                <a href="http://www.khai.edu">Kharkov Nation Space University</a>
+                            </div>
+                            <div class="card__description">
+                                Master's Degree in Business Economics
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/Business-Plan-Basics-1.png" alt="bussiness-plan" class="img-rounded">
+                            <p>
+                                <small><strong>2008-2010</strong></small>
+                            </p>
+                            <p>
+                                <strong><a href="http://kharkivglobal.com/ru">Regional Business Assistance
+                                Centre</a></strong>
+                            </p>
+                            <p>
+                                <small>lead economist</small>
+                            </p>
+                        </div>
                     </div>
                     <div class="col-md-4 col-md-offset-2">
-                        <li><img src="images/agri-1.jpg" alt="agricultural" class="img-rounded"></li>
-                            <p><small><strong>2011-2014</strong></small></p>
-                            <p><strong><a href="http://www.trigonagri.com">LLC Trigon Farming Kharkov</a></strong></p>
-                            <p><small>financial analyst</small></p>
-                        <li><img src="images/js-picture-1.png" alt="web-developer" class="img-rounded"></li>
-                            <p><small><strong>2016</strong></small></p>
-                            <p><strong><a href="http://www.globallogic.com/">GlobalLodgic</a></strong></p>
-                            <p><small>trainee software engineering(JavaScript)</small></p>
+                        <div>
+                            <img src="images/agri-1.jpg" alt="agricultural" class="img-rounded">
+                            <p>
+                                <small><strong>2011-2014</strong></small>
+                            </p>
+                            <p>
+                                <strong><a href="http://www.trigonagri.com">LLC Trigon Farming Kharkov</a></strong>
+                            </p>
+                            <p>
+                                <small>financial analyst</small>
+                            </p>
+                        </div>
+                        <div><img src="images/js-picture-1.png" alt="web-developer" class="img-rounded">
+                            <p>
+                                <small><strong>2016</strong></small>
+                            </p>
+                            <p>
+                                <strong><a href="http://www.globallogic.com/">GlobalLodgic</a></strong>
+                            </p>
+                            <p>
+                                <small>trainee software engineering(JavaScript)</small>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </ul>
+            <!--</ul>-->
     </div>
-    <div class="contact" id="contact">
+    <div class="row contact" id="contact">
         <div class="row">
             <h3 class="title">Contact me</h3>
                 <div class="col-md-6">
@@ -117,7 +148,7 @@
     </div>
 </div>
 <footer class="footer">
-    <div class="footer-above">
+    <div class="footer__above">
         <p class="weblink">AROUND THE WEB</p>
         <p>
             <a href="//www.linkedin.com/in/darya-beloborodova-13481691?trk=nav_responsive_tab_profile">
@@ -126,7 +157,7 @@
             <img src="images/github-1.png"> </a>
         </p>
     </div>
-    <div class="footer-below">
+    <div class="footer__below">
         <p class="sign">bazzika&copy</p>
     </div>
 </footer>
