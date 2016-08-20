@@ -5,8 +5,6 @@ html,body,h1,h2,h3,h4,p,div,ul,ol,li,legend {
 body {
     position: relative;
     background-color: #708090;
-    /*padding-top: 70px;*/
-    /*padding-bottom: 0px;*/
     transition:  all .3s linear;
 }
 h1{
@@ -96,9 +94,6 @@ p {
 .active{
     background-color: white;
 }
-/*.navbar-collapse a:active, a:hover{*/
-    /*text-decoration: none;*/
-/*}*/
 .navbar{
     background-color: saddlebrown;
     border: none;
@@ -164,21 +159,6 @@ form button{
     font-weight: bold;
     color: gray;
 }
-/*#navbar-example{*/
-    /*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
-    /*color:gray;*/
-    /*padding-top: 30px;*/
-/*}*/
-/*.navbar img{*/
-    /*float:left;*/
-    /*vertical-align: middle;*/
-    /*border-radius: 35%;*/
-    /*padding: 20px 0 20px 20px;*/
-/*}*/
-/*.nav-navbar{*/
-    /*color:gray;*/
-    /*display:inline;*/
-/*}*/
 .container .theme-showcase{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
