@@ -85,27 +85,27 @@ a:hover,a:focus{
     background-color: saddlebrown;
     border: none;
 }
-legend,label{
-    /*font-family: "Helvetica Neue",Helvetica,sans-serif;*/
-    /*margin-bottom: 10px;*/
-    /*font-size: small;*/
-    /*opacity: 0.7;*/
-}
-form button{
-    /*font-family: "Helvetica Neue",Helvetica,sans-serif;*/
-    /*float: right;*/
-    /*background-color: sandybrown ;*/
-    /*opacity: 0.7;*/
-    /*color: gray;*/
-    /*font-weight: bolder;*/
-}
-.form-group{
-    /*font-family: "Helvetica Neue",Helvetica,sans-serif;*/
-    /*opacity: 0.7;*/
-}
-.comunicate{
-    /*padding: 20px 10px 10px 10px;*/
-}
+/*legend,label{*/
+    /*!*font-family: "Helvetica Neue",Helvetica,sans-serif;*!*/
+    /*!*margin-bottom: 10px;*!*/
+    /*!*font-size: small;*!*/
+    /*!*opacity: 0.7;*!*/
+/*}*/
+/*form button{*/
+    /*!*font-family: "Helvetica Neue",Helvetica,sans-serif;*!*/
+    /*!*float: right;*!*/
+    /*!*background-color: sandybrown ;*!*/
+    /*!*opacity: 0.7;*!*/
+    /*!*color: gray;*!*/
+    /*!*font-weight: bolder;*!*/
+/*}*/
+/*.form-group{*/
+    /*!*font-family: "Helvetica Neue",Helvetica,sans-serif;*!*/
+    /*!*opacity: 0.7;*!*/
+/*}*/
+/*.comunicate{*/
+    /*!*padding: 20px 10px 10px 10px;*!*/
+/*}*/
 
 .footer{
     width: 100%;
