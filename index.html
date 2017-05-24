@@ -4,232 +4,256 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Personal page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Architects Daughter">
+    <title></title>
 </head>
-<style>
-    @media screen and (max-width: 480px) {
-        body{
-            background-color: blue;
-        }
-    }
-</style>
-<body data-spy="scroll" data-target=".navbar" data-offset="20">
-<nav class="navbar navbar-default navbar-fixed-top" id='navigation' role="navigation">
-    <div class="container head">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Portfolio page</a>
+<body>
+<div class="preloader">
+    <!--<div class="spiner"></div>-->
+</div>
+<div class="menu">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://github.com/bazzika">
+                    <strong>PORTFOLIO PAGE</strong>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="home-btn"><a href="#">Home</a></li>
+                    <li class="about-btn"><a href="#">About</a></li>
+                    <li class="portfolio-btn"><a href="#">Portfolio</a></li>
+                    <!--<li class="resume-btn"><a href="download/cv.....pdf" target="_blank">Resume</a></li>-->
+                    <li class="contacts-btn"><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right" role="tablist">
-              <li class="active">
-                  <a href="#about">About</a>
-              </li>
-              <li>
-                  <a href="#projects">Projects</a>
-              </li>
-              <li>
-                  <a href="#contact">Contact</a>
-              </li>
+    </nav>
+</div>
+<div class="head">
+    <div class="container text-center">
+        <!--<p>Hi, I'm</p>-->
 
-          </ul>
+        <h1>DARYA BELOBORODOVA</h1>
 
-      </div>
-
+        <!--<p>I discover web technology and want to be front-end programmer</p>-->
     </div>
-
-
-</nav>
-
-
-<!--<div class="navbar navbar-fixed-top navbar-inverse" role="navigation" data-toggle="collapse">-->
-    <!--<img src="images/frog-3.png" alt="my logo" class="img-rounded">-->
-        <!--<div class="container">-->
-                <!--<div class="navbar-header">-->
-                    <!--<div class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"><h3 >Portfolio page</h3>-->
-                        <!--</div>-->
-                <!--</div>-->
-                    <!--<div class="collapse navbar-collapse" id="navbar-example" data-offset="10">-->
-                        <!--<ul class="nav navbar-nav" data-toggle="collapse">-->
-                            <!--<li class="active"><a href="#about" >ABOUT</a></li>-->
-                            <!--<li class="divider" ></li>-->
-                            <!--<li><a href="#projects">PROJECTS</a></li>-->
-                            <!--<li class="divider"></li>-->
-                            <!--<li><a href="#contact">CONTACTS</a></li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
+</div>
+<!--<div class="white-bar"></div>-->
+<div class="about">
+    <div class="row">
+        <!--<div class="col-md-6 col-xs-12">-->
+            <!--<img src="img/photo.jpg">-->
         <!--</div>-->
-<!--</div>-->
-<div class="container">
-    <div class="container theme-showcase" role="main" id="about">
-        <!--<div id="about">-->
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-0">
-                        <img src="" alt="my logo" class="img-rounded">
-                    </div>
-                    <div class="col-md-8 col-md-offset-0">
-                        <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id orci eget nulla laoreet tempor.
-                Quisque sit amet ipsum dignissim elit egestas volutpat et in ante. Aenean vitae ligula viverra,
-                euismod nibh id, laoreet ipsum. Nam aliquam, urna eget pharetra consectetur, purus est pellentesque
-                urna, nec tincidunt est nibh semper turpis. Class aptent taciti sociosqu ad litora torquent per
-                conubia nostra, per inceptos himenaeos. In sollicitudin ante felis, in placerat mauris semper in.
-                        </p>
-                    </div>
-                 </div>
-            <!--</div>-->
-        </div>
-   </div>
+        <div class="col-md-12 col-xs-12">
+            <h2>I'm discovering web technology and want to be front-end programmer</h2>
 
-    <div class="container-fluid" id="projects" data-offset-top="50">
-        <h3>Projects</h3>
-            <ul>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-1">
-                        <li><img src="images/js-picture-1.png" alt="study" class="img-rounded"></li>
-                            <!--<p><small><strong>2002-2008</strong></small></p>-->
-                            <p><strong><a href="https://bazzika.github.io/quote-machine">Random Quote Machine</a></strong></p>
-                            <!--<p><small>Master's Degree in Business Economics</small></p>-->
-                        <li><img src="images/js-picture-1.png" alt="bussiness-plan" class="img-rounded"></li>
-                            <!--<p><small><strong>2008-2010</strong></small></p>-->
-                            <p><strong><a href="https://bazzika.github.io/local-weather">The Local Weather</a></strong></p>
-                            <!--<p><small>lead economist</small></p>-->
-                        <li><img src="images/js-picture-1.png" alt="project#" class="img-rounded"></li>
-                        <!--<p><small><strong>2008-2010</strong></small></p>-->
-                        <p><strong><a href="https://bazzika.github.io/wikipedia-viewer">Wikipedia viewer</a></strong></p>
-                        <!--<p><small>lead economist</small></p>-->
-                        <li><img src="images/js-picture-1.png" alt="project#" class="img-rounded"></li>
-                        <!--<p><small><strong>2008-2010</strong></small></p>-->
-                        <p><strong><a href="https://bazzika.github.io/twitch-tv">the Twitch.tv</a></strong></p>
-                        <!--<p><small>lead economist</small></p>-->
-                    </div>
-                    <div class="col-md-4 col-md-offset-2">
-                        <li><img src="images/js-picture-1.png" alt="agricultural" class="img-rounded"></li>
-                            <!--<p><small><strong>2011-2014</strong></small></p>-->
-                            <p><strong><a href="https://bazzika.github.io/js-calculator/">Javascript Calculator</a></strong></p>
-                            <!--<p><small>financial analyst</small></p>-->
-                        <li><img src="images/js-picture-1.png" alt="web-developer" class="img-rounded"></li>
-                            <!--<p><small><strong>2016</strong></small></p>-->
-                            <p><strong><a href="https://bazzika.github.io/pomodoro-clock/">Pomodoro Clock</a></strong></p>
-                            <!--<p><small>trainee software engineering(JavaScript)</small></p>-->
-                        <li><img src="images/js-picture-1.png" alt="web-developer" class="img-rounded"></li>
-                        <!--<p><small><strong>2016</strong></small></p>-->
-                        <p><strong><a href="https://bazzika.github.io/tic-tac-toe-game/">Tic Tac Toe Game</a></strong></p>
-                        <!--<p><small>trainee software engineeri(JavaScript)</small></p>-->
-                        <li><img src="images/js-picture-1.png" alt="web-developer" class="img-rounded"></li>
-                        <!--<p><small><strong>2016</strong></small></p>-->
-                        <p><strong><a href="https://bazzika.github.io/simon-game/">Simon Game</a></strong></p>
-                        <!--<p><small>trainee software engineeri(JavaScript)</small></p>-->
-                    </div>
-                </div>
-            </ul>
-    </div>
-    <div class="contact" id="contact">
-        <div class="row">
-            <h3>Contact me</h3>
-                <div class="col-md-6">
-                <form  method="post" action="MAILTO:daryabelob@gmail.com" enctype="text/plain">
-                    <div class="form-group">
-                    <input type='email' placeholder="Enter your email" class="form-control" name="mail">
-                    </div>
-                    <div class="form-group">
-                    <input type="text" placeholder="Enter your name" class="form-control" name="name">
-                    </div>
-                    <!--<div class="form-group">-->
-                    <!--<input type='tel' placeholder="Enter your telephone number" class="form-control" name="">-->
-                    <!--</div>-->
-                    <div class="form-group">
-                    <label>Your message</label>
-                    <textarea rows="4" class="form-control" maxlength="50" name="comment"></textarea>
-                    </div>
-                    <input type="submit" class="btn" name="submit" value="Send"></input>
-                    </form>
-                </div>
-                <div class="col-md-6 comunicate">
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer a nisi vitae massa accumsan sodales. Phasellus commodo condimentum urna eget.
-                    </p>
-                </div>
+            <!--<p>La-la-la</p>-->
+
+            <!--<p>La-la-la</p>-->
         </div>
     </div>
 </div>
-<footer class="footer">
-    <div class="footer-above">
-        <p class="weblink">AROUND THE WEB</p>
-        <p>
-            <a href="https://www.linkedin.com/in/darya-beloborodova-13481691?trk=nav_responsive_tab_profile">
-            <img src="images/In-Black-34px-R.png"> </a>
-            <a href="https://github.com/bazzika">
-            <img src="images/github-1.png"> </a>
-        </p>
+<!--<div class="white-bar"></div>-->
+<div class="portfolio-block">
+    <div class="portfolio row">
+        <div class="title">PORTFOLIO</div>
+        <!--<div class="row switchers">-->
+            <!--<div class="col-md-6 col-xs-1">-->
+                <!--<button class="switch-btn active">Front-end projects</button>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<div class="col-md-3 col-xs-6">&ndash;&gt;-->
+                <!--&lt;!&ndash;<button class="switch-btn">Back End</button>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="col-md-3 col-xs-6">&ndash;&gt;-->
+                <!--&lt;!&ndash;<button class="switch-btn">Full Stack</button>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="col-md-3 col-xs-6">&ndash;&gt;-->
+                <!--&lt;!&ndash;<button class="switch-btn">Data Visualization</button>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--</div>-->
+
+        <div class="front-end">
+            <!--<div class="row portfolio-title">Front-end projects</div>-->
+            <div class="row">
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/quote-machine"><img src="images/quote-machine.png">
+
+                        <div class="hover">
+                            <h3>QUOTE MACHINE</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/local-weather/"><img src="images/weather.png">
+
+                        <div class="hover">
+                            <h3>LOCAL WEATHER</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/wikipedia-viewer/"><img src="images/wiki-viewer.png">
+
+                        <div class="hover">
+                            <h3>WIKIPEDIA VIEWER</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/twitch-tv"><img src="images/weather.png">
+
+                        <div class="hover">
+                            <h3>TWITCH TV</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+                <!--<div class="col-md-6  col-xs-0 project">-->
+                    <!--<a href="https://bazzika.github.io/js-calculator/"><img src="images/js-calc.png">-->
+
+                        <!--<div class="hover">-->
+                            <!--<h3>JS Calculator</h3>-->
+
+                            <!--<p>HTML/CSS/Bootstrap/JS Based Project</p>-->
+
+                            <!--<p>november 2016</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+            </div>
+            <div class="row">
+                <div class="col-md-6  col-xs-6 project">
+                    <a href="https://bazzika.github.io/js-calculator/"><img src="images/js-calc.png">
+
+                        <div class="hover">
+                            <h3>JS CALCULATOR</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/pomodoro-clock"><img src="images/pomodoro.png">
+
+                        <div class="hover">
+                            <h3>POMODORO CLOCK</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/tic-tac-toe-game/"><img src="images/tictactoe.png">
+
+                        <div class="hover">
+                            <h3>TIC TAC TOE GAME</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 project">
+                    <a href="https://bazzika.github.io/simon-game/"><img src="images/simon-game.png">
+
+                        <div class="hover">
+                            <h3>SIMON GAME</h3>
+
+                            <p>(HTML/CSS/Bootstrap/JS)</p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    <div class="footer-below">
-        <p class="sign">bazzika&copy</p>
+</div>
+<div class="contact">
+    <!--<div class="block-title"><h2>CONTACTS</h2></div>-->
+
+    <div class="row">
+        <div class="col-md-6 col-xs-12 personal">
+            <p><strong>Darya Beloborodova</strong></p>
+
+            <p> +38 063 495 52 04</p>
+
+            <p> daryabelob@gmail.com</p>
+
+            <p><strong>Skype:</strong> waisebart</p>
+        </div>
+        <div class="col-md-6 col-xs-12"><p>If You have any question, please, write me</p>
+
+            <!--<p>Write me.</p></div>-->
     </div>
-</footer>
+    <div class="buttons row">
+        <div class="col-md-1 col-xs-3">
+            <a href="https://www.facebook.com/darya.beloborodova.3"
+               class="btn btn-social-icon btn-md btn-facebook">
+                <span class="fa fa-facebook"></span>
+            </a>
+        </div>
+        <div class="col-md-1 col-xs-3 col-centered">
+            <a href="https://github.com/bazzika" class="btn btn-social-icon btn-md btn-github">
+                <span class="fa fa-github"></span>
+            </a>
+
+        </div>
+        <div class="col-md-1 col-xs-3 col-centered">
+            <a href="https://www.linkedin.com/in/darya-beloborodova-13481691/"
+               class="btn btn-social-icon btn-md btn-linkedin">
+                <span class="fa fa-linkedin"></span>
+            </a>
+        </div>
+        <!--<div class="col-md-1 col-xs-3 col-centered">-->
+            <!--<a href="https://plus.google.com/u/0/108317208621741141000" class="btn btn-social-icon btn-md btn-google">-->
+                <!--<span class="fa fa-google"></span>-->
+            <!--</a>-->
+        <!--</div>-->
+        <div class="col-md-8 col-centered"></div>
+    </div>
+    <div>
+        <p class="block-title">bazzika© 2017</p>
+    </div>
+</div>
+<script src="app.js"></script>
 </body>
-<!--<script type="text/javascript">-->
-    <!--$(document).ready(function () {-->
-        <!--$('.navbar-nav li').on('click',function () {-->
-        <!--$(".navbar-nav li").addClass("active");-->
-            <!--$('.navbar-nav li').css('background-color',"red");-->
-    <!--});-->
-    <!--});-->
-<!--</script>-->
-<!--<script>-->
-    <!--$(document).ready(function() { // вся мaгия пoслe зaгрузки стрaницы-->
-        <!--$("#ajaxform").submit(function(){ // пeрeхвaтывaeм всe при сoбытии oтпрaвки-->
-            <!--var form = $(this); // зaпишeм фoрму, чтoбы пoтoм нe былo прoблeм с this-->
-            <!--var error = false; // прeдвaритeльнo oшибoк нeт-->
-            <!--form.find('input, textarea').each( function(){ // прoбeжим пo кaждoму пoлю в фoрмe-->
-                <!--if ($(this).val() == '') { // eсли нaхoдим пустoe-->
-                    <!--alert('Зaпoлнитe пoлe "'+$(this).attr('placeholder')+'"!'); // гoвoрим зaпoлняй!-->
-                    <!--error = true; // oшибкa-->
-                <!--}-->
-            <!--});-->
-            <!--if (!error) { // eсли oшибки нeт-->
-                <!--var data = form.serialize(); // пoдгoтaвливaeм дaнныe-->
-                <!--$.ajax({ // инициaлизируeм ajax зaпрoс-->
-                    <!--type: 'POST', // oтпрaвляeм в POST фoрмaтe, мoжнo GET-->
-                    <!--url: 'mailto:dsbb@yandex.ru', // путь дo oбрaбoтчикa, у нaс oн лeжит в тoй жe пaпкe-->
-                    <!--dataType: 'json', // oтвeт ждeм в json фoрмaтe-->
-                    <!--data: data, // дaнныe для oтпрaвки-->
-                    <!--beforeSend: function(data) { // сoбытиe дo oтпрaвки-->
-                        <!--form.find('input[type="submit"]').attr('disabled', 'disabled'); // нaпримeр, oтключим кнoпку, чтoбы нe жaли пo 100 рaз-->
-                    <!--},-->
-                    <!--success: function(data){ // сoбытиe пoслe удaчнoгo oбрaщeния к сeрвeру и пoлучeния oтвeтa-->
-                        <!--if (data['error']) { // eсли oбрaбoтчик вeрнул oшибку-->
-                            <!--alert(data['error']); // пoкaжeм eё тeкст-->
-                        <!--} else { // eсли всe прoшлo oк-->
-                            <!--alert('Письмo oтврaвлeнo! Чeкaйтe пoчту! =)'); // пишeм чтo всe oк-->
-                        <!--}-->
-                    <!--},-->
-                    <!--error: function (xhr, ajaxOptions, thrownError) { // в случae нeудaчнoгo зaвeршeния зaпрoсa к сeрвeру-->
-                        <!--alert(xhr.status); // пoкaжeм oтвeт сeрвeрa-->
-                        <!--alert(thrownError); // и тeкст oшибки-->
-                    <!--},-->
-                    <!--complete: function(data) { // сoбытиe пoслe любoгo исхoдa-->
-                        <!--form.find('input[type="submit"]').prop('disabled', false); // в любoм случae включим кнoпку oбрaтнo-->
-                    <!--}-->
-
-                <!--});-->
-            <!--}-->
-            <!--return false; // вырубaeм стaндaртную oтпрaвку фoрмы-->
-        <!--});-->
-    <!--});-->
-<!--</script>-->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </html>
-
